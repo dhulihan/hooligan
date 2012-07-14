@@ -1,0 +1,125 @@
+---
+# empty yaml header to trigger conversion
+---
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro);
+/* Override some defaults */
+html, body {
+  background-color: #2a2a2a;
+  background: url(../images/bgs/body.png) repeat ;
+}
+ 
+body {
+  color:#ccc;
+  text-shadow:1px 1px 1px #000;
+  height:100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+	font-weight:normal;
+	color:#999;
+	text-rendering:optimizelegibility;
+	font-family: 'Advent Pro', sans-serif;
+	/*font-family: 'Pontano Sans', sans-serif;*/
+}
+
+a {
+	color:#4cb4e8;
+	&:hover {
+		color: #83c9ea
+	}
+}
+
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	font-weight:normal;
+	color:#999999;
+}
+
+h1, h2 {
+	margin: 15px 0px;
+}
+
+h1 {
+	font-size:40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+pre, code {
+	background-color:#000;
+	border:none;
+	color:#ccc;
+}
+
+/* Layout */
+.navbar {
+  margin-bottom: 0;
+}
+.container > footer {
+  margin-top: 20px;
+
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.content {
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #000;
+  border:none;
+  padding: 20px 20px 10px;
+  margin: 0px -20px 20px;
+  z-index: 0;
+}
+
+.page-header h1 {
+	color:#eee;
+	margin-bottom:0;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: rgba(255, 255, 255, 0.20);
+	color:white;
+	border-radius: 3px;
+	text-decoration:none;
+}
+
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+	
