@@ -6,6 +6,4 @@ This theme uses SCSS, so make sure your jekyll site is using a proper [SCSS plug
 
 ## Installation
 
-	```sh
 	rake theme:install git="https://github.com/dhulihan/hooligan.git" 
-	```
