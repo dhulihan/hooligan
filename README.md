@@ -1,4 +1,4 @@
-This is a theme for Jekyll + Jekyll-Bootstrap. It is built on top of [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
+This is a fully responsive theme for Jekyll + Jekyll-Bootstrap. It is built on top of [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 ![Screenshot](https://raw.github.com/dhulihan/hooligan/master/screenshot.png)
 
