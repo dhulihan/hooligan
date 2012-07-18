@@ -81,6 +81,13 @@ hr {
 /* Layout */
 .navbar {
   margin-bottom: 0;
+  div.navbar-inner {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;  	
+  }
 }
 .container > footer {
   margin-top: 20px;
