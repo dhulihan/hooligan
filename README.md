@@ -2,10 +2,6 @@ This is a fully responsive theme for Jekyll + Jekyll-Bootstrap. It is built on t
 
 ![Screenshot](https://raw.github.com/dhulihan/hooligan/master/screenshot.png)
 
-## Prerequisites
-
-This stylesheet for this theme uses SCSS, so make sure your jekyll site is using a proper [SCSS plugin](https://gist.github.com/960150).
-
 ## Installation
 
 	rake theme:install git="https://github.com/dhulihan/hooligan.git" 
