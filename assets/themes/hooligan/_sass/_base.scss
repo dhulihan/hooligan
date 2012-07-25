@@ -1,6 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
-
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
 
 /* Theme Vars */
 $link-color: #4cb4e8;
@@ -12,9 +11,11 @@ html, body {
 }
  
 body {
-  color:#ccc;
+  color:#bbb;
   text-shadow:1px 1px 1px #000;
   height:100%; 
+  font-family: 'Oxygen', sans-serif; 
+  font-size: 14px;
 }
    
 h1,h2,h3,h4,h5,h6 {
@@ -241,6 +242,11 @@ div.content {
 }
 
 /* Zocial Overrides */
+.navbar a.zocial {
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+
 .zocial.googleplus:focus,
 .zocial.googleplus:hover {
 	color:#e01d30 !important;
@@ -251,7 +257,10 @@ div.content {
 	color:#46c0fb !important;
 }
 
-.navbar a.zocial {
-	padding-left:0 !important;
-	padding-right:0 !important;
+
+.zocial.linkedin:focus,
+.zocial.linkedin:hover {
+	color:#50a1cb !important;
 }
+
+

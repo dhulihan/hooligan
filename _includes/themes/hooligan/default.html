@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }} - 
+      {% endif %}
+      {{ site.title }}
+    </title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -64,7 +69,12 @@
                 <li>
                   <a href="http://www.facebook.com/{{ site.author.facebook }}" class="zocial facebook icon" target="_blank"></a>
                 </li>
-              {% endif %}               
+              {% endif %}           
+              {% if site.author.linkedin %}
+                <li>
+                  <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="zocial linkedin icon" target="_blank"></a>
+                </li>
+              {% endif %}                    
             </ul>
           </div>
         </div>
