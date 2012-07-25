@@ -1,0 +1,29 @@
+/* Layout */
+.navbar {
+  margin-bottom: 0;
+  div.navbar-inner {
+    @include border-radius(0);
+  }
+  ul.social { 
+    /* Hide social menu on low-res screens */
+    @media (min-width: 480px) and (max-width: 979px) {
+        display:none !important;
+    }
+  }
+} 
+
+
+/* Responsive Overrides */
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  div.container {
+  	padding: 0px 20px;
+	div.page-header {
+		@include border-radius(0);
+  	}
+  }
+}
