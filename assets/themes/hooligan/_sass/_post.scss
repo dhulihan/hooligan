@@ -5,6 +5,16 @@ article.post {
 		h1, h2 {
 			margin: 0;
 		}
+		.category {			
+			display:inline-block;
+			color:rgba(255,255,255,1);
+			border-left:1px solid rgba(255,255,255,0.2);
+			padding-left:6px;
+			margin-left:3px;
+			&:before {
+				// content: "in";
+			}
+		}
 	}
 } 
 
@@ -25,6 +35,6 @@ div.posts {
 					@include border-radius;
 					padding:5px 10px;
 				}				
-		}
+		} 
 	}
 }

@@ -373,13 +373,21 @@ article.post header {
 article.post header h1, article.post header h2 {
   margin: 0;
 }
+/* line 8, ../_sass/_post.scss */
+article.post header .category {
+  display: inline-block;
+  color: white;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 6px;
+  margin-left: 3px;
+}
 
-/* line 15, ../_sass/_post.scss */
+/* line 25, ../_sass/_post.scss */
 div.posts article div.date {
   font-size: 10px;
   padding: 10px 0;
 }
-/* line 18, ../_sass/_post.scss */
+/* line 28, ../_sass/_post.scss */
 div.posts article div.date time {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
@@ -394,4 +402,9 @@ div.posts article div.date time {
   padding: 5px 10px;
 }
 
-/* This is for your Custom Content */
+/* This is for your site's custom styling */
+/* line 3, ../_sass/_custom.scss */
+div.sidebar section.about {
+  background: url(https://en.gravatar.com/userimage/18679074/9ba27bfcab0bbac4529ddc6cae1bbd56.png?size=50) no-repeat 10px 10px;
+  padding-left: 55px;
+}
