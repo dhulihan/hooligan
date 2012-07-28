@@ -105,26 +105,9 @@ hr {
   text-align: center; /* center align it with the container */
 }
 
-div.sidebar {
-	@include box-shadow(
-		rgba(255, 255, 255, 0.1) 0 1px 0, 
-		rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset
-	);
-	background: #202020;
-	background-color: rgba(0, 0, 0, 0.3);
-	@include border-radius;
-	h2, p {
-		padding:15px;
-	}
-	h2 {
-		padding-bottom: 0;
-	}
-	p {
-		padding-top: 0;
-	}
-}
 
-/* Page Content */
+
+/* Content */
 .content {
 	img {
 		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
@@ -150,8 +133,9 @@ div.sidebar {
 		}	
 	}
 	p {
-		margin-bottom:15px;
+		padding-bottom:15px;
 		line-height:25px;
+		margin:0;
 	}
 }
 
@@ -209,19 +193,34 @@ a.btn, a.btn.disabled {
 	}
 }
 
-/* tag_box ======================================================== */
+/* Tags */
 .tag_box {
 	list-style:none;
 	margin:0;
 	padding:5px 0 ;
 	overflow:hidden;
+	&.inline {
+		li {
+			float:left;
+		}
+	}
+	li {
+		line-height:28px;
+	}
+	a {
+		&.active {
+			background:#57A957;
+			border:1px solid #4C964D;
+			color:#FFF;
+		}		
+		span{
+			vertical-align:super;
+			font-size:0.8em;
+		}
+	}
 }
-.tag_box li {
-	line-height:28px;
-}
-.tag_box.inline li {
-	float:left;
-}
+
+.tag_box.inline,
 .tag_box a {
 	padding: 3px 6px;
 	margin: 2px;
@@ -234,17 +233,9 @@ a.btn, a.btn.disabled {
   		rgba(0, 0, 0, 0.8) 0 1px 0, 
   		rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
 	-o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-
-}
-
-.tag_box a span{
-	vertical-align:super;
-	font-size:0.8em;
-}
-.tag_box a.active {
-	background:#57A957;
-	border:1px solid #4C964D;
-	color:#FFF;
+	&:hover {
+		background: rgba(255, 255, 255, 0.30);		
+	}
 }
 	
 /* Page-specific */
