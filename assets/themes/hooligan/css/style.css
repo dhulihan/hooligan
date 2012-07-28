@@ -331,7 +331,7 @@ div.content div#page-index {
 .navbar ul.social {
   /* Hide social menu on low-res screens */
 }
-@media (min-width: 480px) and (max-width: 979px) {
+@media (min-width: 240px) and (max-width: 979px) {
   /* line 7, ../_sass/_responsive.scss */
   .navbar ul.social {
     display: none !important;

@@ -6,7 +6,7 @@
   }
   ul.social { 
     /* Hide social menu on low-res screens */
-    @media (min-width: 480px) and (max-width: 979px) {
+    @media (min-width: 240px) and (max-width: 979px) {
         display:none !important;
     }
   }
