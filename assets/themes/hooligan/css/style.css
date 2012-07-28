@@ -247,7 +247,7 @@ a.btn.disabled, a.btn.disabled.disabled {
 }
 
 /* line 224, ../_sass/_base.scss */
-.tag_box.inline,
+.tag_box.inline a,
 .tag_box a {
   padding: 3px 6px;
   margin: 2px;
@@ -260,7 +260,7 @@ a.btn.disabled, a.btn.disabled.disabled {
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
 /* line 236, ../_sass/_base.scss */
-.tag_box.inline:hover,
+.tag_box.inline a:hover,
 .tag_box a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
