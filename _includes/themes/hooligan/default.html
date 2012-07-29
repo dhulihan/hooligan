@@ -85,6 +85,11 @@
                   <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="zocial linkedin icon" target="_blank"></a>
                 </li>
               {% endif %}                    
+              {% if site.author.feedburner %}
+                <li>
+                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank"></a>
+                </li>
+              {% endif %}
             </ul>
           </div>
         </div>
