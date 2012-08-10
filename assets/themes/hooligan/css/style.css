@@ -4,13 +4,13 @@
 /* Theme Vars */
 /* Compass Vars */
 /* Override some defaults */
-/* line 15, ../_sass/_base.scss */
+/* line 13, ../_sass/_base.scss */
 html, body {
   background-color: #2a2a2a;
   background: url(../images/bgs/body.png) repeat;
 }
 
-/* line 20, ../_sass/_base.scss */
+/* line 18, ../_sass/_base.scss */
 body {
   color: #bbb;
   text-shadow: 1px 1px 1px #000;
@@ -19,7 +19,7 @@ body {
   font-size: 14px;
 }
 
-/* line 28, ../_sass/_base.scss */
+/* line 26, ../_sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   /*font-family: 'Pontano Sans', sans-serif;*/
 }
 
-/* line 37, ../_sass/_base.scss */
+/* line 35, ../_sass/_base.scss */
 a {
   color: #4cb4e8;
   -webkit-transition: all 0.3s;
@@ -38,39 +38,39 @@ a {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 39, ../_sass/_base.scss */
+/* line 37, ../_sass/_base.scss */
 a:hover {
   color: #d4edf9;
   text-decoration: none;
 }
 
-/* line 46, ../_sass/_base.scss */
+/* line 44, ../_sass/_base.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
   color: #999999;
 }
 
-/* line 51, ../_sass/_base.scss */
+/* line 49, ../_sass/_base.scss */
 h1, h2 {
   margin: 0 0 15px;
 }
 
-/* line 55, ../_sass/_base.scss */
+/* line 53, ../_sass/_base.scss */
 h1 {
   font-size: 40px;
 }
 
-/* line 59, ../_sass/_base.scss */
+/* line 57, ../_sass/_base.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 63, ../_sass/_base.scss */
+/* line 61, ../_sass/_base.scss */
 pre, code {
   color: #ccc;
 }
 
-/* line 67, ../_sass/_base.scss */
+/* line 65, ../_sass/_base.scss */
 pre > code {
   /* Reset box-shadow for pygments */
   background: none;
@@ -80,20 +80,19 @@ pre > code {
   -o-box-shadow: none;
 }
 
-/* line 76, ../_sass/_base.scss */
+/* line 74, ../_sass/_base.scss */
 hr {
   border: none;
-  background: #000;
+  background: rgba(0, 0, 0, 0.7);
   height: 1px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Layout */
-/* line 84, ../_sass/_base.scss */
+/* line 81, ../_sass/_base.scss */
 .navbar {
   margin-bottom: 0;
 }
-/* line 86, ../_sass/_base.scss */
+/* line 83, ../_sass/_base.scss */
 .navbar div.navbar-inner {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -101,55 +100,55 @@ hr {
   -o-border-radius: 0;
   border-radius: 0;
 }
-/* line 88, ../_sass/_base.scss */
+/* line 85, ../_sass/_base.scss */
 .navbar div.navbar-inner a.brand {
   padding: 10px 20px;
 }
-/* line 93, ../_sass/_base.scss */
+/* line 90, ../_sass/_base.scss */
 .navbar div.navbar-inner ul.nav:first-child li a {
   padding: 12px 10px 8px;
 }
 
-/* line 102, ../_sass/_base.scss */
+/* line 99, ../_sass/_base.scss */
 .container > footer {
   margin-top: 20px;
   clear: both;
 }
 
-/* line 106, ../_sass/_base.scss */
+/* line 103, ../_sass/_base.scss */
 .container > footer p {
   text-align: center;
   /* center align it with the container */
 }
 
 /* Content */
-/* line 113, ../_sass/_base.scss */
+/* line 110, ../_sass/_base.scss */
 .content {
   /* when there's no page-header */
   /* Wide column content */
 }
-/* line 114, ../_sass/_base.scss */
+/* line 111, ../_sass/_base.scss */
 .content img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
 }
-/* line 118, ../_sass/_base.scss */
+/* line 115, ../_sass/_base.scss */
 .content.no-header {
   padding-top: 40px;
 }
-/* line 125, ../_sass/_base.scss */
+/* line 122, ../_sass/_base.scss */
 .content div.row div.span8 > img {
   display: block;
   margin: 10px auto;
 }
-/* line 131, ../_sass/_base.scss */
+/* line 128, ../_sass/_base.scss */
 .content div.row div.span4 h4 {
   margin-top: 10px;
 }
-/* line 133, ../_sass/_base.scss */
+/* line 130, ../_sass/_base.scss */
 .content div.row div.span4 h4:first {
   margin-top: 0;
 }
-/* line 137, ../_sass/_base.scss */
+/* line 134, ../_sass/_base.scss */
 .content p {
   padding-bottom: 15px;
   line-height: 25px;
@@ -157,7 +156,7 @@ hr {
 }
 
 /* Page header tweaks */
-/* line 145, ../_sass/_base.scss */
+/* line 142, ../_sass/_base.scss */
 .page-header {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
@@ -179,19 +178,19 @@ hr {
   -o-border-bottom-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 158, ../_sass/_base.scss */
+/* line 155, ../_sass/_base.scss */
 .page-header h1 {
   color: #eee;
   margin-bottom: 0;
 }
 
-/* line 164, ../_sass/_base.scss */
+/* line 161, ../_sass/_base.scss */
 .topbar .btn {
   border: 0;
 }
 
 /* Pagination */
-/* line 171, ../_sass/_base.scss */
+/* line 168, ../_sass/_base.scss */
 div.pagination li a {
   -webkit-box-shadow: 0px 1px 1px black;
   -moz-box-shadow: 0px 1px 1px black;
@@ -199,7 +198,7 @@ div.pagination li a {
 }
 
 /* Buttons */
-/* line 179, ../_sass/_base.scss */
+/* line 176, ../_sass/_base.scss */
 a.btn, a.btn.disabled {
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 1px 1px 2px #000;
@@ -209,44 +208,44 @@ a.btn, a.btn.disabled {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
-/* line 190, ../_sass/_base.scss */
+/* line 187, ../_sass/_base.scss */
 a.btn:hover, a.btn.disabled:hover {
   background: rgba(255, 255, 255, 0.05);
 }
-/* line 193, ../_sass/_base.scss */
+/* line 190, ../_sass/_base.scss */
 a.btn.disabled, a.btn.disabled.disabled {
   color: rgba(255, 255, 255, 0.3);
 }
 
 /* Tags */
-/* line 199, ../_sass/_base.scss */
+/* line 196, ../_sass/_base.scss */
 .tag_box {
   list-style: none;
   margin: 0;
   padding: 5px 0;
   overflow: hidden;
 }
-/* line 205, ../_sass/_base.scss */
+/* line 202, ../_sass/_base.scss */
 .tag_box.inline li {
   float: left;
 }
-/* line 209, ../_sass/_base.scss */
+/* line 206, ../_sass/_base.scss */
 .tag_box li {
   line-height: 28px;
 }
-/* line 213, ../_sass/_base.scss */
+/* line 210, ../_sass/_base.scss */
 .tag_box a.active {
   background: #57A957;
   border: 1px solid #4C964D;
   color: #FFF;
 }
-/* line 218, ../_sass/_base.scss */
+/* line 215, ../_sass/_base.scss */
 .tag_box a span {
   vertical-align: super;
   font-size: 0.8em;
 }
 
-/* line 226, ../_sass/_base.scss */
+/* line 223, ../_sass/_base.scss */
 .tag_box.inline a,
 .tag_box a {
   padding: 3px 6px;
@@ -259,38 +258,38 @@ a.btn.disabled, a.btn.disabled.disabled {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0, rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
   -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 }
-/* line 238, ../_sass/_base.scss */
+/* line 235, ../_sass/_base.scss */
 .tag_box.inline a:hover,
 .tag_box a:hover {
   background: rgba(255, 255, 255, 0.3);
 }
 
 /* Page-specific */
-/* line 245, ../_sass/_base.scss */
+/* line 242, ../_sass/_base.scss */
 div.content div#page-index {
   padding-top: 30px !important;
 }
 
 /* Zocial Overrides */
-/* line 251, ../_sass/_base.scss */
+/* line 248, ../_sass/_base.scss */
 .navbar a.zocial {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 257, ../_sass/_base.scss */
+/* line 254, ../_sass/_base.scss */
 .zocial.googleplus:focus,
 .zocial.googleplus:hover {
   color: #e01d30 !important;
 }
 
-/* line 262, ../_sass/_base.scss */
+/* line 259, ../_sass/_base.scss */
 .zocial.twitter:focus,
 .zocial.twitter:hover {
   color: #46c0fb !important;
 }
 
-/* line 268, ../_sass/_base.scss */
+/* line 265, ../_sass/_base.scss */
 .zocial.linkedin:focus,
 .zocial.linkedin:hover {
   color: #50a1cb !important;

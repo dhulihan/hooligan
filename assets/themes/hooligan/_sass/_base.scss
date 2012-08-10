@@ -1,8 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-@import "compass";
-
 /* Theme Vars */
 $link-color: #4cb4e8;
 
@@ -75,9 +73,8 @@ pre > code {
 
 hr {
 	border:none;
-	background:#000;
+	background:rgba(0,0,0,0.7);
 	height:1px;
-	border-bottom:1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Layout */
