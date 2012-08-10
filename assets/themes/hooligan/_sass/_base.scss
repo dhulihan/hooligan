@@ -1,13 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
+@import "compass";
+
 /* Theme Vars */
 $link-color: #4cb4e8;
 
 /* Compass Vars */
 $default-box-shadow-color: #000;
 $default-box-shadow-v-offset: 1px;
-$default-box-shadow-blur: 1px;
+$default-box-shadow-blur: 1px; 
 
 /* Override some defaults */ 
 html, body {
