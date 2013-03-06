@@ -17,9 +17,6 @@
     <![endif]-->
 
 
-    <script src="{{ ASSET_PATH }}/js/jquery.min.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
-
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/css-social-buttons/css/zocial.stripped.css" />
@@ -120,6 +117,11 @@
         </p>
       </footer>
     </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
     {% include JB/analytics %}
   </body>
 </html>
