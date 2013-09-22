@@ -18,7 +18,7 @@ This theme has some optional configuration support for social buttons. Just add 
 	  name : John Doe
 	  email : blah@email.test 
 	  github : johndoe
-	  twitter : dhulihan
+	  twitter : johndoe
 	  feedburner : johndoe
 	  googleplus: johndoe
 	  # Whatever you specify for the linkedin option will be placed after `www.linkedin.com/in/`
