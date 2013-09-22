@@ -289,11 +289,17 @@ div.content div#page-index {
   color: #46c0fb !important;
 }
 
-/* line 265, ../_sass/_base.scss */
+/* line 264, ../_sass/_base.scss */
 .zocial.linkedin:focus,
 .zocial.linkedin:hover {
   color: #50a1cb !important;
 }
+
+/* line 269, ../_sass/_base.scss */
+.zocial.rss:focus,
+.zocial.rss:hover {
+  color:#fb9d3a !important;
+}  
 
 /* Layout */
 /* line 2, ../_sass/_responsive.scss */
