@@ -13,7 +13,10 @@ html, body {
   height: auto !important;
   height: 100%;
   // Negative indent footer by it's height
-  margin: 0 auto -$footerHeight;
+  margin-bottom: -($footerHeight);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 //footer fixed height
