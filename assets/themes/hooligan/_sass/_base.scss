@@ -7,22 +7,22 @@ $link-color: #4cb4e8;
 /* Compass Vars */
 $default-box-shadow-color: #000;
 $default-box-shadow-v-offset: 1px;
-$default-box-shadow-blur: 1px; 
+$default-box-shadow-blur: 1px;
 
-/* Override some defaults */ 
+/* Override some defaults */
 html, body {
-  background-color: #2a2a2a;
-  background: url(../images/bgs/body.png) repeat ;
+	background-color: #2a2a2a;
+	background: url(../images/bgs/body.png) repeat ;
 }
- 
+
 body {
-  color:#bbb;
-  text-shadow:1px 1px 1px #000;
-  height:100%; 
-  font-family: 'Oxygen', sans-serif; 
-  font-size: 14px;
+	color:#bbb;
+	text-shadow:1px 1px 1px #000;
+	height:100%; 
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
 }
-   
+
 h1,h2,h3,h4,h5,h6 {
 	margin:0;
 	font-weight:normal;
@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
 	text-rendering:optimizelegibility;
 	font-family: 'Advent Pro', sans-serif;
 	/*font-family: 'Pontano Sans', sans-serif;*/
-} 
+}
 
 a {
 	color:$link-color;
@@ -67,9 +67,9 @@ pre > code {
 	background:none;
 	box-shadow:none;
 	-moz-box-shadow: none;
-  	-webkit-box-shadow: none;
-  	-o-box-shadow: none;
-} 
+		-webkit-box-shadow: none;
+		-o-box-shadow: none;
+}
 
 hr {
 	border:none;
@@ -79,29 +79,29 @@ hr {
 
 /* Layout */
 .navbar {
-  margin-bottom: 0;
-  div.navbar-inner {
-  	@include border-radius(0);
-  	a.brand {
-  		padding:10px 20px;
-  	}
-  	ul.nav:first-child {
-  		li {
-  			a {
-  				padding:12px 10px 8px;
-  			}
-  		}
-  	}
-  }
+	margin-bottom: 0;
+	div.navbar-inner {
+		@include border-radius(0);
+		a.brand {
+			padding:10px 20px;
+		}
+		ul.nav:first-child {
+			li {
+				a {
+					padding:12px 10px 8px;
+				}
+			}
+		}
+	}
 }
 
 
 .container > footer {
-  margin-top: 20px;
-  clear:both;
+	margin-top: 20px;
+	clear:both;
 }
 .container > footer p {
-  text-align: center; /* center align it with the container */
+	text-align: center; /* center align it with the container */
 }
 
 
@@ -122,14 +122,14 @@ hr {
 			> img {
 				display:block;
 				margin: 10px auto;
-			}	
+			}
 		}
 		div.span4 {
 			h4 {
 				margin-top:10px;
 				&:first {margin-top: 0}
 			}
-		}	
+		}
 	}
 	p {
 		padding-bottom:15px;
@@ -159,7 +159,7 @@ hr {
 }
 
 .topbar .btn {
-  border: 0;
+	border: 0;
 }
 
 /* Pagination */
@@ -178,10 +178,10 @@ a.btn, a.btn.disabled {
 	text-shadow: 1px 1px 2px #000;
 	background:rgba(0,0,0, 0.2);
 	border:none;
-  	-moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  	-webkit-box-shadow: 
-  		rgba(0, 0, 0, 0.8) 0 1px 0, 
-  		rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
+		-moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+		-webkit-box-shadow: 
+			rgba(0, 0, 0, 0.8) 0 1px 0, 
+			rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
 	-o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 
 	&:hover {
@@ -211,7 +211,7 @@ a.btn, a.btn.disabled {
 			background:#57A957;
 			border:1px solid #4C964D;
 			color:#FFF;
-		}		
+		}
 		span{
 			vertical-align:super;
 			font-size:0.8em;
@@ -227,16 +227,16 @@ a.btn, a.btn.disabled {
 	color:white;
 	border-radius: 3px;
 	text-decoration:none;
-  	-moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  	-webkit-box-shadow: 
-  		rgba(0, 0, 0, 0.8) 0 1px 0, 
-  		rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
+		-moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+		-webkit-box-shadow: 
+			rgba(0, 0, 0, 0.8) 0 1px 0, 
+			rgba(255, 255, 255, 0.5) 0 1px 1px 0px inset;
 	-o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
 	&:hover {
-		background: rgba(255, 255, 255, 0.30);		
+		background: rgba(255, 255, 255, 0.30);
 	}
 }
-	
+
 /* Page-specific */
 div.content {
 	div#page-index {
@@ -268,4 +268,32 @@ div.content {
 .zocial.rss:focus,
 .zocial.rss:hover {
 	color:#fb9d3a !important;
-}  
+}
+
+/* Sticky footer */
+$footerHeight: 75px;
+
+//Page full height
+html, body {
+	height: 100%;
+}
+
+#page-wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	// Negative indent footer by it's height
+	margin-bottom: -($footerHeight);
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+//footer fixed height
+.footer-push,
+footer {
+	height: $footerHeight;
+	max-height: $footerHeight;
+	overflow: hidden;
+}
+
