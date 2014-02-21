@@ -5,7 +5,7 @@ article.post {
 		h1, h2 {
 			margin: 0;
 		}
-		.category {			
+		.category {
 			display:inline-block;
 			color:rgba(255,255,255,1);
 			border-left:1px solid rgba(255,255,255,0.2);
@@ -16,7 +16,7 @@ article.post {
 			}
 		}
 	}
-} 
+}
 
 div.posts {
 	article {
@@ -34,7 +34,7 @@ div.posts {
 					background-color: rgba(0, 0, 0, 0.3);
 					@include border-radius;
 					padding:5px 10px;
-				}				
-		} 
+				}
+		}
 	}
 }
