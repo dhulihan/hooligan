@@ -14,12 +14,12 @@ You can preview this theme at the [Jekyll-Bootstrap Theme Gallery](http://themes
  
 This theme has some optional configuration support for social buttons. Just add your provider and username to `_config.yml`, like so:
 
-	author :
-	  name : John Doe
-	  email : blah@email.test 
-	  github : johndoe
-	  twitter : johndoe
-	  feedburner : johndoe
+	author:
+	  name: John Doe
+	  email: blah@email.test 
+	  github: johndoe
+	  twitter: johndoe
+	  feedburner: johndoe
 	  googleplus: johndoe
 	  # Whatever you specify for the linkedin option will be placed after `www.linkedin.com/in/`
 	  linkedin: johndoe
