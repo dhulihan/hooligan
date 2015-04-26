@@ -32,6 +32,10 @@
     <section>
       <h4>Published</h4>
       <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
+      {% if page.updated %}
+      <h4>Updated</h4>
+      <div class="date"><span>{{ page.updated | date_to_long_string }}</span></div>
+      {% endif %}     
     </section>
     {% if page.category %}
       <section>
