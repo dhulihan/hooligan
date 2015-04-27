@@ -37,12 +37,14 @@
       <div class="date"><span>{{ page.updated | date_to_long_string }}</span></div>
       {% endif %}     
     </section>
-    {% if page.category %}
+    {% if page.categories %}
       <section>
-        <h4>Category</h4>
+        <h4>{% if page.categories.size == 1 %}Category{% else %}Categories{% endif %}</h4>
+        {% for category in page.categories %}
         <span class="category">
-          {{ page.category }}
+          {{ category }}
         </span>
+        {% endfor %}
       </section>
     {% endif %}     
     {% unless page.tags == empty %}
